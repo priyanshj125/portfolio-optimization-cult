@@ -1,0 +1,61 @@
+INFO: Starting EDA pipeline…
+INFO: Loaded 50 stock files from /home/priyansh/Desktop/New Folder 1/archive
+INFO: Building master feature dataset (may take ~30s)…
+INFO: Loaded 50 stock files from /home/priyansh/Desktop/New Folder 1/archive
+WARNING: No usable rows for INFRATEL after feature engineering.
+INFO: Master dataset: 224412 rows, 49 symbols, 2000-10-19 to 2021-03-26
+INFO: [1/15] Sector composition
+INFO: Saved figure: 01_sector_composition.png
+INFO: [2/15] Data coverage
+INFO: Saved figure: 02_data_coverage.png
+INFO: Saved table: data_coverage.csv
+INFO: [3/15] Normalized prices
+INFO: Saved figure: 03_normalized_prices.png
+INFO: [4/15] Top/bottom performers
+INFO: Saved figure: 04_top_bottom_performers.png
+INFO: Saved table: total_return_ranking.csv
+INFO: [5/15] Return distribution
+INFO: Saved figure: 05_return_distribution.png
+INFO: Saved table: return_distribution_stats.csv
+INFO: [6/15] Correlation heatmap
+INFO: Saved figure: 06_correlation_heatmap.png
+INFO: Saved table: correlation_matrix.csv
+INFO: [7/15] Rolling volatility
+INFO: Saved figure: 07_rolling_volatility.png
+INFO: [8/15] Volume trends
+INFO: Saved figure: 08_volume_trends.png
+INFO: [9/15] Risk-return scatter
+INFO: Saved figure: 09_risk_return_scatter.png
+INFO: Saved table: asset_risk_metrics.csv
+INFO: [10/15] Feature distributions
+INFO: Saved figure: 10_feature_distributions.png
+INFO: [11-12/15] Model evaluation (training…)
+INFO: Training model on 80000 rows for EDA plots…
+INFO: Training random_forest on 64000 samples, testing on 16000 samples.
+INFO: Saved figure: 11_model_evaluation.png
+INFO: Saved table: model_cv_folds.csv
+INFO: Saved table: model_cv_summary.csv
+INFO: Saved figure: 12_feature_importances.png
+INFO: Saved table: feature_importances.csv
+INFO: Saved table: model_holdout_metrics.csv
+INFO: [13-15/15] Portfolio comparison
+INFO: Saved figure: 13_portfolio_risk_comparison.png
+INFO: Saved table: portfolio_comparison.csv
+INFO: Saved figure: 14_portfolio_allocations.png
+/home/priyansh/Desktop/New Folder 1/eda.py:76: UserWarning: Glyph 8377 (\N{INDIAN RUPEE SIGN}) missing from font(s) Liberation Sans.
+  plt.tight_layout()
+/home/priyansh/Desktop/New Folder 1/eda.py:77: UserWarning: Glyph 8377 (\N{INDIAN RUPEE SIGN}) missing from font(s) Liberation Sans.
+  plt.savefig(path, dpi=FIG_DPI, bbox_inches="tight", facecolor="white")
+INFO: Saved figure: 15_portfolio_equity_curves.png
+INFO: Saved table: portfolio_weights_all_profiles.csv
+INFO: Saved report: /home/priyansh/Desktop/New Folder 1/output/eda_report.md
+
+============================================================
+  EDA COMPLETE
+============================================================
+  Figures : /home/priyansh/Desktop/New Folder 1/output/figures  (15 PNG files)
+  Tables  : /home/priyansh/Desktop/New Folder 1/output/tables
+  Report  : /home/priyansh/Desktop/New Folder 1/output/eda_report.md
+============================================================
+
+To use in PDF: open output/eda_report.md and insert figures from output/figures/

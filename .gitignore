@@ -1,0 +1,70 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ── Virtual Environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── Distribution / Packaging ───────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# ── Testing & Coverage ─────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+coverage.xml
+nosetests.xml
+
+# ── Type Checkers ─────────────────────────────────────────────────────────────
+.mypy_cache/
+.pytype/
+.pyre/
+
+# ── Jupyter / IPython ─────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Data & Archives ───────────────────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+*.7z
+
+
+# ── Reports & Generated Output ────────────────────────────────────────────────
+
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ── OS Artifacts ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Environment & Secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+secrets.yaml
+secrets.json
+.venv/

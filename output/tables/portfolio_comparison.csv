@@ -1,0 +1,4 @@
+,Profile,Ann_Volatility,Sharpe,Sortino,Max_Drawdown,Mean_Ann_Return
+0,Conservative,0.1795,0.6324,0.6081,0.3712,0.1718
+1,Balanced,0.1879,0.9978,0.9286,0.4638,0.2458
+2,Aggressive,0.232,0.9264,0.8622,0.6495,0.2732
